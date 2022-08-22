@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Estilos de textos</title>
+		<title>Cores e imagens de fundo</title>
 		<meta charset="utf-8">
 
 		<style type="text/css">
@@ -11,26 +11,34 @@
 			color: white;
 		}*/
 
-		body{
+		h1{
 			background-image: url("../imagen/yoshi.png");
 
-			background-repeat: no-repeat;
+			background-repeat: repeat-x;
+
 			/*repeat-x, repeat-y, no repeat*/
 
-			background-attachment: fixed;
+			background-attachment: scroll;
+
 			/*scrool, fixed*/
 
-			background-position: center bottom;
+			background-position: center center;
+
 			/*primeiro valor: left, center, right 
-			  segundo valor: top, center, bottom;
-			*/
+			  segundo valor: top, center, bottom;*/
+			
+		}
+		
+		.fundo{
+			background: blue url('../imagen/yoshi.png') no-repeat fixed center center ;
 		}
 		</style>
 
 	</head>
-	<body>
+	<body class="fundo">
 		<!-- Imagem continua fixa em quanto o texto é rolado para baixo. O método usado é background-attachment fixed -->
-		<h1>Conteúdo de titulo 1</h1>
+		<h1>Conteúdo de titulo 1<br>
+	
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
