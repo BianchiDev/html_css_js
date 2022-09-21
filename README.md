@@ -20,3 +20,5 @@
 - IONIC 
 - Wordpress
 <hr>
+<p align = "center"><img src="./assets/html_css.png" width="80%" height="80%">
+</p>
