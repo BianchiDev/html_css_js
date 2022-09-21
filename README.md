@@ -19,6 +19,8 @@
 - API
 - IONIC 
 - Wordpress
-<hr>
+
+<a href= "https://www.udemy.com/course/web-completo/">Desenvolvimento Web</a>
+
 <p align = "center"><img src="./assets/html_css.png" width="80%" height="80%">
 </p>
